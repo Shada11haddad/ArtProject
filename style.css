@@ -1,0 +1,147 @@
+/* font */
+@import url("https://fonts.googleapis.com/css2?family=Artifika&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Artifika&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    body {
+    background-color: #ebeae9;
+    margin: 1rem;
+    }
+
+    html {
+    font-family: "Inter", serif;
+    }
+
+    /* Nav Start */
+    nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 5rem;
+    }
+
+    nav ul {
+    margin-left: 5rem;
+
+    list-style: none;
+    }
+    li a {
+    text-decoration: none;
+    color: black;
+    }
+nav .burger span{
+    height: 4px;
+    border: 2px solid black;
+    margin: 4px;
+    background: black;
+}
+
+/* nav end */
+/* header start */
+
+header{
+    margin: 6rem;
+
+}
+
+.main-heading{
+    width: 50%;
+    font-size: 3rem;
+    font-weight:600 ;
+}
+
+.primary-heading{
+    width: 50%;
+    margin-top:3rem ;
+    font-size: 1.5rem;
+    line-height: 30px;
+}
+
+.bg-gray{
+    background-color: rgb(53, 53, 53);
+color: white;
+padding: 2px 10px;
+font-weight: bold;
+}
+
+/* header end */
+/* main start */
+main{
+    margin: 0 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px;
+}
+
+main .img{
+    width: 40%;
+    margin: 10px;
+
+}
+
+/* section three start */
+
+.section-three{
+    margin-left: 5rem;
+}
+
+.section-three .primary-headings{
+    margin-bottom: 10rem;
+
+}
+
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-three .item h1{
+    font-size: 2rem;
+    color: rgb(53, 53, 53);
+    margin-left: 1rem;
+}
+
+.section-three img{
+    width: 400px;
+    height: 400px;
+    margin: 50px;
+
+}
+
+
+/* section three end */
+
+/* footer start */
+
+footer{
+    margin-top: 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    background: rgb(144, 195, 200);
+    height: 50vh;
+
+}
+
+
+footer .logo-container h1{
+font-size: 4rem;
+fon
+}
+
+/* footer end */
